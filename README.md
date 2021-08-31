@@ -1,4 +1,4 @@
-This program is EXTREMELY slow and doesn't product the results you would expect at all. Eventually I'll learn some actual image processing and redo this. Maybe. 
+This program is EXTREMELY slow and doesn't produce the results you would expect at all. Eventually I'll learn some actual image processing and redo this. Maybe. Peep the before and after pics below. 
 
 ![before](before.jpg)
 ![after](after.jpg)
