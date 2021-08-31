@@ -1,7 +1,10 @@
 from PIL import Image, ImageFilter
 from math import sqrt
+import datetime
 import os
 import argparse
+
+begin_time = datetime.datetime.now()
 
 nord_colors = [(46, 52, 64), (59, 66, 82), (67, 76, 94), (76, 86, 106), (216, 222, 233), (229, 233, 240), (236, 239, 244), (143, 188, 187), (136, 192, 208), (129, 161, 193), (94, 129, 172), (191, 97, 106), (208, 135, 112), (235, 203, 139), (235, 203, 1139), (180, 142, 173)]
 
@@ -26,3 +29,5 @@ for x in range(image.width):
         image.putpixel((x,y), closest_color(image.getpixel((x, y))))
 
 image.save(args["output"])
+
+print(datetime.datetime.now() - begin_time)
